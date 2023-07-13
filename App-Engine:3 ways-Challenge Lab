@@ -1,25 +1,26 @@
-Task 2 ------>Download the Hello World app
+Task 2 ------>Download the Hello World app and Task 3------->Deploy your app
 
-git clone https://github.com/GoogleCloudPlatform/php-docs-samples.git
-cd php-docs-samples/appengine/standard/helloworld
-
-Task 3------->Deploy your app
-
+gcloud services enable appengine.googleapis.com
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+cd python-docs-samples/appengine/standard_python3/hello_world
 gcloud app deploy
 
 Enter the number that represents your region:
 Enter Y when prompted to confirm the deployment of service.
 
-View your application----->
-gcloud app browse
+new terminal------------->
+
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+cd python-docs-samples/appengine/standard_python3/hello_world
+
 
 Task 4------> Deploy updates to your application
 
-nano index.php    
+nano main.py   
 
 Make changes as instructed >> CTRL + X > Y > Enter to exit and save the file
 
- gcloud app deploy
+gcloud app deploy
 
 
 
